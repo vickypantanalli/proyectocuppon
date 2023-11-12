@@ -1,0 +1,43 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.verde{
+    background-color: #28A745;
+  }
+
+.direccion{
+  font-size: 13px;
+}
+
+.precios{
+  display: flex;
+  padding-left: 100px;
+  padding-bottom: 0;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-between
+}
+
+.precioferta{
+  color:#28A745;
+  font-weight: 900;
+}
+
+footer{
+  height: 120px;
+   font-size: 14px;
+ }
+
+footer > div{
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+ }
+
+
+
